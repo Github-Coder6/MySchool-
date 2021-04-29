@@ -1,0 +1,55 @@
+.h1{
+ font-family: 'Indie Flower', cursive;
+ font-size: 50px; 
+ color: black;
+}
+#marqueeStyle{
+    background-color: beige;
+}
+.h2{
+  font-family: 'Indie Flower', cursive;
+  color: black;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    background-color: beige;
+    color: saddlebrown;
+    text-decoration-color: none;
+}
+
+.links:hover{
+    background-color: darkblue;
+    color: white;
+}
+body{
+    background-image: url(schhoool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+.head{
+    width:100%;
+}
+#vid{
+    border: 5px;
+    border-color: black;
+}
