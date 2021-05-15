@@ -38,7 +38,7 @@
     color: white;
 }
 body{
-    background-image: url(schhoool.jpg);
+    background-image: url(light-green-waves-background-latest-e1434941912871.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -52,4 +52,43 @@ html{
 #vid{
     border: 5px;
     border-color: black;
+}
+h1{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+#h44{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    background-color: #ff7700;
+}
+.movie_head i{
+    float: right;
+}
+.movie_text span{
+    color: #ff7700;
+}
+.head_for_movie{
+    color: #ffffff;
+}
+.movie_text{
+   background-color: yellowgreen;
+}
+.flex-container{
+    display: flex;
 }
